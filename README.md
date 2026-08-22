@@ -8,6 +8,8 @@ Self-contained comparison of **1985–2014 annual-mean** surface temperature and
 
 This repository is independent of the observation-staging tree. Collaborators can clone or unpack it on Frontier without the rest of Water4Energy.
 
+A separate helper, [`dataset12/`](dataset12/README.md), inventories Dataset 1 and checks that Dataset 2 labelled samples reconstruct from the monthly panels. It is not an E3SM comparison.
+
 Verified on Frontier `login04` on **2026-08-22**. Details: [`FRONTIER_TEST_REPORT.md`](FRONTIER_TEST_REPORT.md). Scientific method: [`README_WORKFLOW.md`](README_WORKFLOW.md).
 
 ## What is in this package

@@ -16,3 +16,7 @@ dist/
 
 # Climatology NetCDFs stay on disk / in the full share tarball
 *.nc
+
+# Dataset 1/2 helper cache and run output
+dataset12/_inputs/
+dataset12/outputs/
