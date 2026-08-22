@@ -1,0 +1,33 @@
+E3SM-ERA5 diagnostic package
+============================
+
+Git repository: daliwang/water4energy_diagnostics
+Frontier path:  /lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics
+Sibling of:     ../data  (daliwang/water4energy)
+
+Committed to this repo:
+  README.md
+  README_WORKFLOW.md
+  FRONTIER_TEST_REPORT.md
+  MANIFEST.txt
+  plot_e3sm_era5.py
+  requirements.txt
+  tva_power_service_area.geojson
+  setup_frontier_venv.sh
+  run_frontier.sh
+  run_frontier.sbatch
+  pack_share_bundle.sh
+  cartopy_data/shapefiles/natural_earth/physical/ne_110m_coastline.*
+  example_plots/precipitation_comparison.{png,pdf}
+  example_plots/surface_temperature_comparison.{png,pdf}
+
+Not committed (too large or machine-local):
+  ERA5_ANN_198501_201412_climo.nc
+  v3.LR.historical_0101_ANN_198501_201412_climo.nc
+  .venv/
+  .mplconfig/
+  plots/
+  dist/*.tar.gz
+
+Rebuild the share tarball with:
+  ./pack_share_bundle.sh

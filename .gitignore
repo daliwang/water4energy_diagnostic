@@ -1,0 +1,18 @@
+# Recreate locally with setup_frontier_venv.sh
+.venv/
+
+# Matplotlib / Cartopy runtime caches
+.mplconfig/
+plots/.cartopy/
+
+# Regenerable run output (committed examples live in example_plots/)
+plots/
+plots_frontier_test/
+
+# Share tarballs (1+ GB with climatology NetCDFs)
+dist/
+*.tar
+*.tar.gz
+
+# Climatology NetCDFs stay on disk / in the full share tarball
+*.nc
