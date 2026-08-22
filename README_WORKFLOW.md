@@ -1,6 +1,6 @@
 # ERA5–E3SMv3 climatology comparison workflow
 
-This repository is `daliwang/water4energy_diagnostics`, a sibling of `../data`.
+This repository is `daliwang/water4energy_diagnostic`, a sibling of `../data`.
 Frontier users: start with [`README.md`](README.md). This file is the scientific method note.
 
 This package creates publication-ready comparisons of 1985–2014 annual-mean

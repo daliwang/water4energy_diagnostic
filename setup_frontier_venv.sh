@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Create the Frontier Python environment for E3SM–ERA5 diagnostics.
+# Create the Frontier Python environment for water4energy_diagnostic.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

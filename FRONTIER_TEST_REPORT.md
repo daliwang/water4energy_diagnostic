@@ -1,8 +1,8 @@
-# Frontier launch report: E3SM–ERA5 diagnostic
+# Frontier launch report: water4energy_diagnostic
 
 **Host:** Frontier `login04`  
 **Date:** 2026-08-22  
-**Package:** `daliwang/water4energy_diagnostics` at `/lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics`  
+**Package:** `daliwang/water4energy_diagnostic` at `/lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics`  
 **Script:** `plot_e3sm_era5.py`
 
 ## Question
@@ -95,4 +95,4 @@ These NetCDF files stay on disk and in the **full** share tarball. They are giti
 
 ## Recommendation for collaborators
 
-Give them `e3sm_era5_diagnostics_frontier_full_YYYYMMDD.tar.gz` (from `./pack_share_bundle.sh`). Ask them to run the two scripts above on a Frontier login node. A batch job is optional; this diagnostic is small enough for login-node use.
+Give them `water4energy_diagnostic_frontier_full_YYYYMMDD.tar.gz` (from `./pack_share_bundle.sh`). Ask them to run the two scripts above on a Frontier login node. A batch job is optional; this diagnostic is small enough for login-node use.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Run the E3SM–ERA5 diagnostic on Frontier (login node or compute node).
+# Run water4energy_diagnostic on Frontier (login node or compute node).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 STAMP="$(date +%Y%m%d)"
 DIST="$ROOT/dist"
-NAME="e3sm_era5_diagnostics"
+NAME="water4energy_diagnostic"
 STAGE="$DIST/$NAME"
 mkdir -p "$DIST"
 rm -rf "$STAGE"

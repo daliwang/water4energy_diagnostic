@@ -1,6 +1,6 @@
-# E3SM–ERA5 climatology diagnostic
+# water4energy_diagnostic
 
-**Repo:** `daliwang/water4energy_diagnostics`  
+**Repo:** `daliwang/water4energy_diagnostic` (`git@github.com:daliwang/water4energy_diagnostic.git`)  
 **Frontier path:** `/lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics`  
 **Sibling of:** `daliwang/water4energy` (`../data`)
 
@@ -62,14 +62,14 @@ sbatch --account=YOUR_PROJECT run_frontier.sbatch
 
 That writes:
 
-- `dist/e3sm_era5_diagnostics_frontier_full_YYYYMMDD.tar.gz` — **give this to users who should run the diagnostic** (includes NetCDFs)
-- `dist/e3sm_era5_diagnostics_frontier_code_YYYYMMDD.tar.gz` — code/docs only
+- `dist/water4energy_diagnostic_frontier_full_YYYYMMDD.tar.gz` — **give this to users who should run the diagnostic** (includes NetCDFs)
+- `dist/water4energy_diagnostic_frontier_code_YYYYMMDD.tar.gz` — code/docs only
 
 Users unpack and run:
 
 ```bash
-tar -xzf e3sm_era5_diagnostics_frontier_full_YYYYMMDD.tar.gz
-cd e3sm_era5_diagnostics
+tar -xzf water4energy_diagnostic_frontier_full_YYYYMMDD.tar.gz
+cd water4energy_diagnostic
 ./setup_frontier_venv.sh
 ./run_frontier.sh
 ```
@@ -100,7 +100,7 @@ The magenta outline on the global maps is the TVA service area over Tennessee an
 ```text
 /lustre/orion/lrn105/proj-shared/wangd/water4energy/
   data/            # git: daliwang/water4energy
-  Diagnostics/     # this repo
+  Diagnostics/     # this repo (water4energy_diagnostic)
 ```
 
 ## Troubleshooting

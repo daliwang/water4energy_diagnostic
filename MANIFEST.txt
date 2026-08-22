@@ -1,7 +1,7 @@
-E3SM-ERA5 diagnostic package
-============================
+water4energy_diagnostic
+=========================
 
-Git repository: daliwang/water4energy_diagnostics
+Git repository: daliwang/water4energy_diagnostic
 Frontier path:  /lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics
 Sibling of:     ../data  (daliwang/water4energy)
 
