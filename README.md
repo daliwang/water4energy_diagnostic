@@ -2,7 +2,7 @@
 
 **Repo:** `daliwang/water4energy_diagnostic` (`git@github.com:daliwang/water4energy_diagnostic.git`)  
 **Frontier path:** `/lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics`  
-**Sibling of:** `daliwang/water4energy` (`../data`)
+**Sibling of:** `daliwang/water4energy_data` (`../data`)
 
 Self-contained comparison of **1985–2014 annual-mean** surface temperature and precipitation from **ERA5** and **E3SMv3**, including a **TVA Power Service Area** overlay.
 
@@ -101,7 +101,7 @@ The magenta outline on the global maps is the TVA service area over Tennessee an
 
 ```text
 /lustre/orion/lrn105/proj-shared/wangd/water4energy/
-  data/            # git: daliwang/water4energy
+  data/            # git: daliwang/water4energy_data
   Diagnostics/     # this repo (water4energy_diagnostic)
 ```
 

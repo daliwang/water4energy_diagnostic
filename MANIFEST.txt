@@ -3,7 +3,7 @@ water4energy_diagnostic
 
 Git repository: daliwang/water4energy_diagnostic
 Frontier path:  /lustre/orion/lrn105/proj-shared/wangd/water4energy/Diagnostics
-Sibling of:     ../data  (daliwang/water4energy)
+Sibling of:     ../data  (daliwang/water4energy_data)
 
 Committed to this repo:
   README.md
