@@ -6,6 +6,8 @@
 
 Self-contained comparison of **1985–2014 annual-mean** surface temperature and precipitation from **ERA5** and **E3SMv3**, including a **TVA Power Service Area** overlay.
 
+This tree is **v3 annual climo only**. E3SM forecast \(Y\) starts on Xiaoying **S2D**, not this ANN. V3 historical series and ERA5-Land are **not** here. Frontier listing: [`ERA5_Land_and_E3SM_Availability_Frontier.md`](ERA5_Land_and_E3SM_Availability_Frontier.md).
+
 This repository is independent of the observation-staging tree. Collaborators can clone or unpack it on Frontier without the rest of Water4Energy.
 
 A separate helper, [`dataset12/`](dataset12/README.md), inventories Dataset 1 and checks that Dataset 2 labelled samples reconstruct from the monthly panels. It is not an E3SM comparison.
